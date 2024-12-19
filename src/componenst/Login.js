@@ -1,6 +1,7 @@
 import React from 'react'
 import Img from "./img/volks.png";
 import { Link } from 'react-router-dom';
+import  './Estilos/Login.css';
  
 function Login() {
   return (
