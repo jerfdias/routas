@@ -13,11 +13,11 @@ function Login() {
     <input type="text" placeholder='digite seu email' required ></input><br></br>   
     <label for="senhaCliente">Senha:</label>
     <input type="password" placeholder='digite sua senha aqui' required className='senhaContent' ></input>
-    </form>
-    <Link to={'/cadastro'}>Cadastre-se</Link>
-    <button type='submit'>Login</button>
-    <Link to={'/lembrar'}>Recuperar Senha!</Link>
     
+    <Link to={'/cadastro'} className='pagina'style={{textDecoration:'none'}}>Cadastre-se</Link>
+    <button type='submit'>Login</button>
+    <Link to={'/lembrar'} className='pagina'style={{textDecoration:'none'}}color='white'>Recuperar Senha!</Link>
+    </form>
 
 
 
